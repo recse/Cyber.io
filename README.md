@@ -33,6 +33,35 @@ It allows to decrypt WEP / WPA / WPA2 encrypt (no commands needed). ion in a gra
 
 # Pre-requisites
 
+Software
+
+- Ubuntu/Debian/Kali-linux/Parrot
+- Dependencies/packages:
+    1. 
+    2.
+    3.
+    4.
+  
+
+Hardware
+
+You need a wifi card that supports "access point"/"master" mode. You can check whether it does by running: iw list You want to see "AP" in the output. Something like:
+
+Supported interface modes:
+         * IBSS
+         * managed
+         * AP
+         * AP/VLAN
+         * monitor
+         * mesh point
+
+Example of working cards:
+
+Ubiquiti SR-71: (chipset AR9170, driver carl9170 http://wireless.kernel.org/en/users/Drivers/carl9170)
+Alfa Black AWUS036NHA (chipset Atheros AR9271)
+TP-Link TL-WN722N (chipset Atheros AR9271 )
+
+
 # Running
 
 # Designed by
