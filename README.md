@@ -17,8 +17,10 @@
 
 A Cybersecurity and Pentesting script to assist in Wi-Fi audits.  
 
-It allows to decrypt WEP / WPA / WPA2 encrypt (no commands needed). ion in a graphical and intuitive way. In addition, it allows to emulate a Rogue AP (dummy access point) with customs logins.
+It allows to decrypt WEP / WPA / WPA2 encrypt (no commands needed) in a graphical and intuitive way. 
+In addition, it also allows to emulate a Rogue AP (dummy access point) with customs logins.
 
+# Functions
 - Two runtime enviroments:
 
       1. Graphical -> Fully intuitive environment and similar to the installation of any software. Without Terminal.
@@ -63,6 +65,8 @@ TP-Link TL-WN722N (chipset Atheros AR9271 )
 
 
 # Running
+
+You have to run it as root (the script will detect if you are root or user, in that last case, it will exit automatically).
 
 # Designed by
 Recse
